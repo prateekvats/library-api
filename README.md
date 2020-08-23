@@ -1,16 +1,16 @@
-#Minimal Library API
+# Minimal Library API
 
 
-##System Actors
+## System Actors
 
-#####Book Issuer: A person who has a membership at this library and can issue books based on their availability
-#####Librarian: A person who can has the ability to issue a book to a member, add new stock to the available Book stocks,etc
+###### Book Issuer: A person who has a membership at this library and can issue books based on their availability
+###### Librarian: A person who can has the ability to issue a book to a member, add new stock to the available Book stocks,etc
 
 
 1. There is no connection to a database. The API returns dummy dtos
 2. The api has three separate groups for a librarian, issuer and a controller for Books
 
-####Running the application
+## Running the application
 
 1. Clone the repo
 2. Make sure maven is installed
